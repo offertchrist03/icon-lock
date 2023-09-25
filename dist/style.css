@@ -1,0 +1,15 @@
+.my-animate-ping {
+  animation: my-animate-ping .3s linear infinite;
+}
+
+@keyframes my-animate-ping {
+  80% {
+    width: 400px;
+    height: 400px;
+  }
+
+  100% {
+    width: 500px;
+    height: 500px;
+  }
+}
